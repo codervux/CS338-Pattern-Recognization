@@ -1,2 +1,2 @@
 # CS338-Pattern-Recognization
-repo môn nhận dạng của thầy tiến (repo a subject on class)
+This is the repo to demo DiffusionDet on Streamlit (Object Detection).
