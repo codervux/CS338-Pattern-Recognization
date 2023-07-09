@@ -1,0 +1,19 @@
+_BASE_: "Base-DiffusionDet.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/torchvision/R-50.pkl"
+  RESNETS:
+    DEPTH: 50
+    STRIDE_IN_1X1: False
+  DiffusionDet:
+    NUM_PROPOSALS: 800
+    NUM_CLASSES: 2
+DATASETS:
+  TRAIN: ("cityperson_train",)
+  TEST:  ("cityperson_val",)
+SOLVER:
+  STEPS: (23500, 24200)
+  MAX_ITER: 24500
+INPUT:
+  CROP:
+    ENABLED: False
+  FORMAT: "RGB"
