@@ -10,3 +10,8 @@ go to detectron2 folder, run file deploy_bruh.py
 
 streamlit run deploy_bruh.py
 
+Video Demo
+
+
+https://github.com/codervux/CS338-Pattern-Recognization/assets/74999534/93ac74b2-3012-4860-a1dc-1ebd3ead9552
+
